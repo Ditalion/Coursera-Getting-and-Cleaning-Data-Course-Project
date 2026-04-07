@@ -74,8 +74,8 @@ TidySet <- merged_UCI_HAR_dataset %>% select(subjects,class,contains("mean"), co
         
  ## Variables
  Examples of variables in the data set include:  
- -"Subjects": this corresponds to the number of the volunteer (1-30).  
- -"Activity": this corresponds to the activity being measures (laying, sitting, standing, walking, walking upstairs, walking downstairs).  
+ -"Subjects": this corresponds to the number of the volunteer (1-30). 
+ -"Activity": this corresponds to the activity being measures (laying, sitting, standing, walking, walking upstairs, walking downstairs). 
  For the other variables, I referr to the original documentation from the dataset. 
 
 
