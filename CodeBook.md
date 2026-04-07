@@ -35,7 +35,7 @@ features <- read.table(file = "UCI HAR Dataset/features.txt", col.names = c("n",
         subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt", col.names = "subjects")
                 x_train <- read.table("UCI HAR Dataset/train/X_train.txt", col.names = features$feature)
                 y_train <- read.table("UCI HAR Dataset/train/y_train.txt", col.names = "class") 
-                ``` 
+``` 
 
 **Step 4. Merging the training and the test sets using rbind and cbind**
 ``` 
