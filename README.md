@@ -16,6 +16,7 @@ used for later analysis.
 
 
 ### How the script works and how they are connected
-Follows.
+The script is available as a file named "run_analysis.R". This script is the full script.  
+Both in the .R file and in the CodeBook.md are the steps taken to clean the data explained.
 
 
