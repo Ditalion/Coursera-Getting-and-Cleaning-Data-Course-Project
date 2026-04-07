@@ -45,12 +45,12 @@ x <- rbind(x_train, x_test)
         merged_UCI_HAR_dataset <- cbind(subjects, y, x)
 ``` 
 
-**Step 5. Extracting only the measurements on the mean and standard deviation for each measurement. **
+**Step 5. Extracting only the measurements on the mean and standard deviation for each measurement.**
 ``` 
 TidySet <- merged_UCI_HAR_dataset %>% select(subjects,class,contains("mean"), contains("std"))
 ``` 
 
-**Step 6. Applying descriptive activity names and labels in the data set "TidySet". **
+**Step 6. Applying descriptive activity names and labels in the data set "TidySet".**
 ``` 
         TidySet$class <- activities[TidySet$class, "activity"]
         TidySet <- rename(TidySet, activity = class)
